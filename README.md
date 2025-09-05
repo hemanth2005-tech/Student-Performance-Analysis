@@ -22,7 +22,7 @@ Dataset: Kaggle – Students Performance in Exams
 - **Regression:** Linear Regression, Random Forest Regressor
 
 ## 📊 Results
-- Classification accuracy: **XX%**
+- Classification accuracy: **0.95%**
 - Linear Regression: **R² ≈ 1.00**
 - Random Forest Regression: **R² ≈ 0.99**
 
