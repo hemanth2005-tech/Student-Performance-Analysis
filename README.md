@@ -1,2 +1,33 @@
-# Student-Performance-Analysis
-Exploratory Data Analysis (EDA) of student performance dataset using Python. This project investigates correlations between academic outcomes and factors like parental education, test preparation, and lunch type. Code and visualizations were developed interactively in Google Colab and transferred here for reproducibility and sharing.
+# 🎓 Student Performance Analysis & Prediction
+
+This project analyzes student exam performance and builds models to:
+- Explore score patterns with EDA
+- Predict **Pass/Fail** (classification)
+- Predict **exact average score** (regression)
+
+Dataset: Kaggle – Students Performance in Exams  
+(If not included in this repo, download: https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
+
+## 📂 Structure
+
+
+
+## 🔍 EDA Highlights
+- Score distributions
+- Effect of gender & parental education
+- Correlations among math, reading, writing
+
+## 🤖 Models
+- **Classification:** Random Forest (Pass/Fail)
+- **Regression:** Linear Regression, Random Forest Regressor
+
+## 📊 Results
+- Classification accuracy: **XX%**
+- Linear Regression: **R² ≈ 1.00**
+- Random Forest Regression: **R² ≈ 0.99**
+
+## ⚙️ Run Locally
+```bash
+pip install -r requirements.txt
+jupyter notebook notebook/Student_Performance.ipynb
+
